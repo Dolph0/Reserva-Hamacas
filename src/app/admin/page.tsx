@@ -1,7 +1,7 @@
 import { supabase } from "@/lib/supabase";
 import { BarChart3, TrendingUp, Users, DollarSign, Umbrella } from "lucide-react";
 
-export const revalidate = 0;
+export const dynamic = 'force-dynamic';
 
 export default async function AdminDashboard() {
   const { data: hamacas } = await supabase.from('hamacas').select('*');

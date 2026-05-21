@@ -4,7 +4,7 @@ import { ArrowLeft, Umbrella } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-export const revalidate = 0; // Disable cache for real-time status
+export const dynamic = 'force-dynamic';
 
 export default async function SectorPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
