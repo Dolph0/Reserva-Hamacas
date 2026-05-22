@@ -12,11 +12,8 @@ export default function Home() {
           <span className="text-xl md:text-2xl font-bold text-slate-800 tracking-tight">BeachLounger</span>
         </div>
         <div className="flex gap-2 md:gap-4">
-          <Link href="/login" className="px-3 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-semibold text-slate-700 hover:bg-slate-100 transition-colors">
-            Iniciar Sesión
-          </Link>
           <Link href="/login" className="px-3 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-semibold text-white bg-sky-500 hover:bg-sky-600 transition-colors shadow-md shadow-sky-500/20">
-            Registrarse
+            Iniciar Sesión
           </Link>
         </div>
       </nav>
